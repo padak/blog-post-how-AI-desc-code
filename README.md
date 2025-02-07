@@ -50,9 +50,10 @@ happens to data before they are pushed to Keboola Storage. Create markdown docum
 for the product manager, describing the Keboola Streaming service, including all components 
 and principles. The documentation should cover options for tuning the buffer (e.g., how 
 long data are cached—such as 30 seconds or 1,000 events) and the JSON parsing process. 
-Additionally, include a detailed visual diagram (Mermaid flowchart) illustrating the application's
-inner logic, with a specific focus on how data flows through the components of the Keboola 
-Streaming service. Ensure the diagram is detailed and store the result in @streaming-explanation.md 
+Additionally, include a detailed visual diagram (Mermaid flowchart) illustrating 
+the application's inner logic, with a specific focus on how data flows through 
+the components of the Keboola Streaming service. Ensure the diagram is detailed and store 
+the result in @streaming-explanation.md 
 ```
 
 This prompt was designed to:
