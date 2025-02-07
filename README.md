@@ -43,3 +43,14 @@ This study illustrates several practical approaches:
 ## AI Generation Process
 
 The documentation was created using the following prompt, demonstrating how AI can be integrated into product management practices:
+
+```
+Inspect the and investigate @stream in more depth to uncover what happens to data before they are pushed to Keboola Storage. Create markdown documentation for the product manager, describing the Keboola Streaming service, including all components and principles. The documentation should cover options for tuning the buffer (e.g., how long data are cached—such as 30 seconds or 1,000 events) and the JSON parsing process. Additionally, include a detailed visual diagram (Mermaid flowchart) illustrating the application's inner logic, with a specific focus on how data flows through the components of the Keboola Streaming service. Ensure the diagram is detailed and store the result in @streaming-explanation.md 
+```
+
+This prompt was designed to:
+1. Focus on technical understanding of the streaming service
+2. Ensure comprehensive coverage of system components
+3. Include practical configuration details
+4. Provide clear visual representation
+5. Create documentation suitable for both technical and non-technical stakeholders
